@@ -1,0 +1,52 @@
+title = "Sherlock Homes"
+baseURL = "https://example.com/"
+theme = "hugo-resume"
+languageCode = "en-us"
+PygmentsCodeFences = true
+PygmentsCodeFencesGuessSyntax = true
+PygmentsStyle = "monokai"
+enableGitInfo = false
+
+[params]
+address = "33B Baker Street, London"
+email = "email@domain.com"
+favicon = "/favicon.ico"
+firstName = "Sherlock"
+lastName = "Holmes"
+phone = "1-555-555-1234"
+profileImage = "img/TechChat.png"
+showQr = true
+showContact = true
+sections = ["skills","publications","creations","contributions","experience","education","blog"]
+
+
+[params.google]
+
+[params.google.analytics]
+trackerID = "XX-123446-01"
+
+[[params.handles]]
+link = "https://bakerstreet.fandom.com/wiki/Sherlock_Holmes"
+name = "LinkedIn"
+
+[[params.handles]]
+link = "https://github.com/jennapp/"
+name = "GitHub"
+
+[[params.handles]]
+link = "https://bitbucket.org/eddiewebb/"
+name = "Bitbucket"
+
+[[params.handles]]
+link = "https://stackoverflow.com/users/story/82880"
+name = "Stack Overflow"
+
+[[params.handles]]
+link = "https://keybase.io/edwardawebb"
+name = "Keybase"
+
+[outputs]
+home = ["HTML", "JSON"]
+
+[taxonomies]
+tag = "tags"
